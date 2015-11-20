@@ -49,3 +49,6 @@ gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootst
 
 gem 'simple_form'
 
+# Use HAML by default instead of erb
+gem 'haml-rails'
+

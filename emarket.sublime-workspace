@@ -1,0 +1,546 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"movie_",
+				"movie_data"
+			],
+			[
+				"att",
+				"attr	Ruby attr_accessor"
+			],
+			[
+				"req",
+				"req	require \"..\""
+			],
+			[
+				"na",
+				"navbar"
+			],
+			[
+				"pro",
+				"products"
+			],
+			[
+				"do",
+				"dow	downto(0) { |n| .. }"
+			],
+			[
+				"Order",
+				"OrderTransaction"
+			],
+			[
+				"at",
+				"attrr	Ruby attr_reader"
+			],
+			[
+				"ini",
+				"init	Initialize Method with Arguments"
+			],
+			[
+				"order",
+				"order_form"
+			],
+			[
+				"link",
+				"link_to"
+			],
+			[
+				"item",
+				"item_data"
+			],
+			[
+				"all",
+				"allowed_weight"
+			],
+			[
+				"curre",
+				"current_floor"
+			],
+			[
+				"set",
+				"set_current_floor"
+			],
+			[
+				"fl",
+				"floor"
+			],
+			[
+				"curr",
+				"current_floor"
+			],
+			[
+				"up",
+				"upt	upto(1.0/0.0) { |n| .. }"
+			],
+			[
+				"cu",
+				"current_floor"
+			],
+			[
+				"max",
+				"max_weight"
+			],
+			[
+				"E",
+				"Elevator"
+			],
+			[
+				"def",
+				"def	Ruby/Rails Method"
+			],
+			[
+				"oth",
+				"other_point"
+			],
+			[
+				"va",
+				"validate"
+			],
+			[
+				"v",
+				"validate"
+			],
+			[
+				"ate",
+				"attempt"
+			],
+			[
+				"co",
+				"connect_to_wikipedia"
+			],
+			[
+				"method_",
+				"method_with_error"
+			],
+			[
+				"Cla",
+				"ClassMethods"
+			],
+			[
+				"In",
+				"InstanceMethods"
+			],
+			[
+				"in",
+				"include	Include Method"
+			],
+			[
+				"se",
+				"self"
+			],
+			[
+				"mod",
+				"mod	module .. end"
+			],
+			[
+				"pr",
+				"protected"
+			],
+			[
+				"mo",
+				"mod	module .. end"
+			],
+			[
+				"fuel",
+				"fuel_tank"
+			],
+			[
+				"str",
+				"start_engine"
+			],
+			[
+				"cla",
+				"cla	class .. end"
+			],
+			[
+				"init",
+				"init0	Initialize without Arguments"
+			],
+			[
+				"C",
+				"ClassMethods"
+			],
+			[
+				"ar",
+				"args"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 375.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Disable Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 453.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/denis/Dropbox/emarket"
+	],
+	"file_history":
+	[
+		"/home/denis/Dropbox/scraper/Gemfile",
+		"/home/denis/Dropbox/scraper/config/initializers/devise.rb",
+		"/home/denis/Dropbox/scraper/app/views/movies/new.html.haml",
+		"/home/denis/Dropbox/scraper/app/views/movies/show.html.haml",
+		"/home/denis/Dropbox/scraper/app/views/movies/_form.html.haml",
+		"/home/denis/Dropbox/scraper/app/views/movies/index.html.haml",
+		"/home/denis/Dropbox/scraper/app/views/layouts/application.html.erb",
+		"/home/denis/Dropbox/scraper/app/models/scrape.rb",
+		"/home/denis/Dropbox/scraper/app/assets/stylesheets/pages.scss",
+		"/home/denis/.config/sublime-text-3/Packages/Ruby Debugger/Ruby Debugger.sublime-settings",
+		"/home/denis/Dropbox/scraper/app/controllers/movies_controller.rb",
+		"/home/denis/Dropbox/scraper/app/views/layouts/_header.html.erb",
+		"/home/denis/Dropbox/scraper/config/initializers/noko.rb",
+		"/home/denis/Dropbox/scraper/app/models/movie.rb",
+		"/home/denis/Dropbox/scraper/app/models/user.rb",
+		"/home/denis/Dropbox/scraper/app/controllers/pages_controller.rb",
+		"/home/denis/Dropbox/scraper/db/migrate/20151116195718_create_movies.rb",
+		"/home/denis/Dropbox/scraper/app/views/pages/home.html.haml",
+		"/home/denis/Dropbox/scraper/config/routes.rb",
+		"/home/denis/Dropbox/scraper/db/migrate/20151116190046_devise_create_users.rb",
+		"/home/denis/Dropbox/my_store/app/models/item.rb",
+		"/home/denis/Dropbox/my_store/app/controllers/items_controller.rb",
+		"/home/denis/Dropbox/my_store/Gemfile",
+		"/home/denis/Dropbox/my_store/config/initializers/kaminari_config.rb",
+		"/home/denis/Dropbox/my_store/app/views/items/show.html.haml",
+		"/home/denis/Dropbox/my_store/config/environments/development.rb",
+		"/home/denis/Dropbox/mota_store/app/views/products/show.html.haml",
+		"/home/denis/Dropbox/mota_store/config/routes.rb",
+		"/home/denis/Dropbox/mota_store/.gitignore",
+		"/home/denis/Dropbox/my_store/.gitignore",
+		"/home/denis/Dropbox/my_store/app/views/layouts/application.html.haml",
+		"/home/denis/Dropbox/my_store/app/assets/stylesheets/application.css.scss",
+		"/home/denis/Desktop/Cover Letter",
+		"/home/denis/Dropbox/my_store/app/assets/javascripts/items.js",
+		"/home/denis/Dropbox/my_store/app/controllers/application_controller.rb",
+		"/home/denis/Desktop/digital_ocean.txt",
+		"/home/denis/.ssh/config",
+		"/home/denis/Dropbox/my_store/app/controllers/cart_controller.rb",
+		"/home/denis/Dropbox/my_store/app/views/cart/cart.html.haml",
+		"/home/denis/Dropbox/my_store/config/routes.rb",
+		"/home/denis/Dropbox/my_store/app/views/pages/frontpage.html.haml",
+		"/home/denis/Dropbox/my_store/app/views/items/index.html.haml",
+		"/home/denis/Dropbox/my_store/app/helpers/application_helper.rb",
+		"/home/denis/Dropbox/my_store/app/controllers/pages_controller.rb",
+		"/home/denis/Dropbox/my_store/config/deploy.rb",
+		"/config/deploy.rb",
+		"/home/denis/.ssh/known_hosts",
+		"/home/denis/Dropbox/mota_store/app/models/order.rb",
+		"/home/denis/Dropbox/mota_store/app/views/orders/index.html.haml",
+		"/home/denis/Dropbox/mota_store/app/views/products/index.html.haml",
+		"/home/denis/Dropbox/mota_store/app/controllers/application_controller.rb",
+		"/home/denis/Dropbox/mota_store/app/controllers/orders_controller.rb",
+		"/home/denis/Dropbox/mota_store/app/mailers/order_mailer.rb",
+		"/home/denis/Dropbox/mota_store/app/views/order_mailer/state_changed.text.erb",
+		"/media/denis/345031D350319C94/RUBY/RAILS/Projects/Done/! Tutsplus - Build a Store With a Payment Gateway in Rails [NepsterJay]/db/migrate/20151025120437_add_state_to_orders.rb",
+		"/media/denis/345031D350319C94/RUBY/RAILS/Projects/The Professional Ruby On Rails Developer [Udemy] (сайт с рецептами)/Read-Me.txt",
+		"/media/denis/345031D350319C94/RUBY/RAILS/Projects/! Tutsplus - Build a Store With a Payment Gateway in Rails [NepsterJay]/NepsterJay.txt",
+		"/home/denis/Dropbox/mota_store/app/views/categories/show.html.haml",
+		"/home/denis/Dropbox/mota_store/app/views/carts/checkout.html.haml",
+		"/home/denis/Dropbox/mota_store/app/controllers/products_controller.rb",
+		"/home/denis/Dropbox/mota_store/app/views/products/_form.html.haml",
+		"/home/denis/Dropbox/mota_store/db/migrate/20151025120615_add_state_to_orders.rb",
+		"/home/denis/Dropbox/mota_store/app/services/order_transaction.rb",
+		"/home/denis/Dropbox/mota_store/app/models/user.rb",
+		"/home/denis/Dropbox/mota_store/app/views/products/_table.html.haml",
+		"/home/denis/Dropbox/mota_store/app/views/application/_nav.html.erb",
+		"/home/denis/Dropbox/my_store/app/views/devise/shared/_links.html.erb",
+		"/home/denis/Dropbox/mota_store/app/views/orders/_braintree.html.haml",
+		"/home/denis/Dropbox/mota_store/db/migrate/20151025010307_add_category_to_products.rb",
+		"/home/denis/Dropbox/mota_store/app/views/orders/new_payment.html.haml",
+		"/home/denis/Dropbox/my_store/app/models/user.rb",
+		"/home/denis/Dropbox/mota_store/20151025120615_add_state_to_orders.rb",
+		"/home/denis/Dropbox/mota_store/db/migrate/20151025120437_add_state_to_orders.rb",
+		"/home/denis/Dropbox/mota_store/app/controllers/categories_controller.rb",
+		"/home/denis/Dropbox/mota_store/app/models/category.rb",
+		"/home/denis/Dropbox/mota_store/app/views/orders/_data.html.haml",
+		"/home/denis/Dropbox/mota_store/db/migrate/20151025094222_add_admin_to_users.rb",
+		"/home/denis/Dropbox/mota_store/%table.table.table-hover",
+		"/home/denis/Dropbox/mota_store/app/models/product.rb",
+		"/home/denis/Dropbox/mota_store/config/environments/test.rb",
+		"/home/denis/Dropbox/mota_store/app/controllers/carts_controller.rb",
+		"/home/denis/Dropbox/mota_store/app/views/layouts/application.html.erb",
+		"/home/denis/Dropbox/mota_store/app/models/order_item.rb",
+		"/home/denis/Dropbox/mota_store/app/models/order_form.rb",
+		"/home/denis/Dropbox/mota_store/app/views/order_mailer/order_confirmation.text.erb",
+		"/home/denis/Dropbox/mota_store/Gemfile",
+		"/home/denis/Dropbox/mota_store/config/environments/development.rb",
+		"/home/denis/.zshr",
+		"//.zshr",
+		"/home/denis/Dropbox/mota_store/app/models/cart_item.rb",
+		"/home/denis/Dropbox/mota_store/app/views/orders/_errors.html.haml",
+		"/home/denis/Dropbox/mota_store/db/schema.rb",
+		"/home/denis/Dropbox/mota_store/app/models/cart.rb",
+		"/home/denis/Dropbox/mota_store/app/views/carts/show.html.haml",
+		"/home/denis/Dropbox/mota_store/app/views/application/_cart.html.haml",
+		"/home/denis/Dropbox/mota_store/app/uploaders/image_uploader.rb",
+		"/home/denis/Dropbox/mota_store/app/assets/stylesheets/application.css.scss",
+		"/home/denis/Dropbox/mota_store/app/assets/stylesheets/application.css",
+		"/home/denis/Dropbox/mota_store/app/assets/javascripts/application.js",
+		"/home/denis/Dropbox/my_store/app/views/layouts/application.html.erb",
+		"/home/denis/Dropbox/my_store/app/models/comment.rb",
+		"/home/denis/Dropbox/my_store/app/models/blog_post.rb",
+		"/home/denis/Dropbox/my_store/db/migrate/20151003210020_add_votes_count_to_items.rb",
+		"/home/denis/Dropbox/my_store/db/migrate/20150804233430_create_items.rb",
+		"/home/denis/Dropbox/my_store/app/models/cart.rb",
+		"/home/denis/Dropbox/my_store/app/models/position.rb",
+		"/home/denis/Dropbox/my_store/.ruby-gemset",
+		"/home/denis/Dropbox/mota_store/.ruby-gemset",
+		"/home/denis/Dropbox/mota_store/.ruby-version",
+		"/home/denis/Dropbox/my_store/.ruby-version",
+		"/home/denis/Dropbox/my_store/app/views/items/edit.html.erb",
+		"/home/denis/Dropbox/my_store/app/views/items/show.html.erb",
+		"/home/denis/Dropbox/my_store/db/migrate/20151006210201_remove_column_from_users.rb",
+		"/media/denis/345031D350319C94/RUBY/Куреннов/Занятия_1-7/5_§.txt",
+		"/home/denis/Dropbox/my_store/app/views/shared/_email.html.erb",
+		"/home/denis/Dropbox/my_store/app/views/items/new.html.erb",
+		"/home/denis/Dropbox/my_store/db/migrate/20151004204415_create_comments.rb",
+		"/home/denis/Dropbox/my_store/db/migrate/20151004211753_create_blog_posts.rb",
+		"/home/denis/Dropbox/my_store/db/migrate/20151004194122_create_carts_items.rb",
+		"/home/denis/Dropbox/my_store/db/migrate/20151004200022_create_positions.rb",
+		"/home/denis/Dropbox/my_store/app/models/order.rb",
+		"/home/denis/Dropbox/my_store/app/views/items/index.html.erb",
+		"/home/denis/Dropbox/my_store/db/migrate/20151004145921_add_email_to_user.rb",
+		"/home/denis/Dropbox/my_store/db/migrate/20151004142442_create_orders.rb",
+		"/home/denis/Dropbox/my_store/db/migrate/20151004134537_create_carts.rb",
+		"/home/denis/Dropbox/my_store/db/migrate/20151004134513_create_users.rb",
+		"/home/denis/Dropbox/my_store/public/403.html",
+		"/home/denis/Dropbox/my_store/.Gemfile"
+	],
+	"find":
+	{
+		"height": 37.0
+	},
+	"find_in_files":
+	{
+		"height": 95.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"order_form",
+			"email",
+			"td",
+			"elv",
+			"@floor",
+			"@floor ",
+			"@floor",
+			"x",
+			"other_point",
+			"self",
+			"sport_car",
+			"car",
+			"private",
+			"protected",
+			"tabs",
+			"peer"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 120.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "emarket.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"orderma",
+				"mota_store/app/mailers/order_mailer.rb"
+			],
+			[
+				"order",
+				"mota_store/app/controllers/orders_controller.rb"
+			],
+			[
+				"user.r",
+				"my_store/app/models/user.rb"
+			],
+			[
+				"orders_co",
+				"mota_store/app/controllers/orders_controller.rb"
+			],
+			[
+				"_nav",
+				"mota_store/app/views/application/_nav.html.erb"
+			],
+			[
+				"_link",
+				"my_store/app/views/devise/shared/_links.html.erb"
+			],
+			[
+				"admin",
+				"mota_store/db/migrate/20151025094222_add_admin_to_users.rb"
+			],
+			[
+				"adminusers",
+				"mota_store/db/migrate/20151025094222_add_admin_to_users.rb"
+			],
+			[
+				"categor",
+				"mota_store/app/controllers/categories_controller.rb"
+			],
+			[
+				"app",
+				"my_store/app/controllers/application_controller.rb"
+			],
+			[
+				"nav",
+				"mota_store/app/views/application/_nav.html.erb"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 200.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

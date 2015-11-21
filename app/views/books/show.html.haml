@@ -6,4 +6,6 @@
     %p= @book.description
     %h4.text-center $#{@book.price.to_f / 100}
 
-
+= link_to 'Edit', edit_book_path
+\|
+= link_to 'Back', books_path

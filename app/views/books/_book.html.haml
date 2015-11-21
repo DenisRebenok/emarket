@@ -1,0 +1,10 @@
+.col-md-3
+  .thumbnail
+    = link_to book_path(book) do
+      = image_tag "book.jpg", class: "img-responsive"
+
+    
+    .caption
+      %p
+        %strong= link_to book.name, book_path(book)
+      %p $#{book.price.to_f/100}

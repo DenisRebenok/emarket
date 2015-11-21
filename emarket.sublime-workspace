@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"input",
+				"input_html"
+			],
+			[
+				"nav",
+				"navbar-brand"
+			],
+			[
 				"movie_",
 				"movie_data"
 			],
@@ -171,6 +179,14 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "app/views/books/show.html.haml",
+			"settings":
+			{
+				"buffer_size": 192,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -225,10 +241,32 @@
 	},
 	"expanded_folders":
 	[
-		"/home/denis/Dropbox/emarket"
+		"/home/denis/Dropbox/emarket",
+		"/home/denis/Dropbox/emarket/app",
+		"/home/denis/Dropbox/emarket/app/assets",
+		"/home/denis/Dropbox/emarket/app/assets/images",
+		"/home/denis/Dropbox/emarket/app/views",
+		"/home/denis/Dropbox/emarket/app/views/books",
+		"/home/denis/Dropbox/emarket/app/views/devise/passwords",
+		"/home/denis/Dropbox/emarket/app/views/devise/registrations"
 	],
 	"file_history":
 	[
+		"/home/denis/Dropbox/emarket/app/controllers/pages_controller.rb",
+		"/home/denis/Dropbox/emarket/app/views/layouts/_header.html.erb",
+		"/home/denis/Dropbox/emarket/app/views/pages/home.html.haml",
+		"/home/denis/Dropbox/emarket/app/views/devise/registrations/edit.html.erb",
+		"/home/denis/Dropbox/emarket/db/migrate/20151121142038_create_books.rb",
+		"/home/denis/Dropbox/emarket/app/views/devise/passwords/new.html.erb",
+		"/home/denis/Dropbox/emarket/app/views/devise/passwords/edit.html.erb",
+		"/home/denis/Dropbox/emarket/config/initializers/simple_form.rb",
+		"/home/denis/Dropbox/emarket/app/views/devise/registrations/new.html.erb",
+		"/home/denis/Dropbox/emarket/app/assets/stylesheets/devise.css.scss",
+		"/home/denis/Dropbox/emarket/app/views/devise/sessions/new.html.erb",
+		"/home/denis/Dropbox/emarket/app/views/layouts/application.html.erb",
+		"/home/denis/Dropbox/emarket/Gemfile",
+		"/home/denis/Dropbox/emarket/config/environments/development.rb",
+		"/home/denis/Dropbox/emarket/config/routes.rb",
 		"/home/denis/Dropbox/scraper/Gemfile",
 		"/home/denis/Dropbox/scraper/config/initializers/devise.rb",
 		"/home/denis/Dropbox/scraper/app/views/movies/new.html.haml",
@@ -341,22 +379,7 @@
 		"/home/denis/Dropbox/my_store/.ruby-version",
 		"/home/denis/Dropbox/my_store/app/views/items/edit.html.erb",
 		"/home/denis/Dropbox/my_store/app/views/items/show.html.erb",
-		"/home/denis/Dropbox/my_store/db/migrate/20151006210201_remove_column_from_users.rb",
-		"/media/denis/345031D350319C94/RUBY/Куреннов/Занятия_1-7/5_§.txt",
-		"/home/denis/Dropbox/my_store/app/views/shared/_email.html.erb",
-		"/home/denis/Dropbox/my_store/app/views/items/new.html.erb",
-		"/home/denis/Dropbox/my_store/db/migrate/20151004204415_create_comments.rb",
-		"/home/denis/Dropbox/my_store/db/migrate/20151004211753_create_blog_posts.rb",
-		"/home/denis/Dropbox/my_store/db/migrate/20151004194122_create_carts_items.rb",
-		"/home/denis/Dropbox/my_store/db/migrate/20151004200022_create_positions.rb",
-		"/home/denis/Dropbox/my_store/app/models/order.rb",
-		"/home/denis/Dropbox/my_store/app/views/items/index.html.erb",
-		"/home/denis/Dropbox/my_store/db/migrate/20151004145921_add_email_to_user.rb",
-		"/home/denis/Dropbox/my_store/db/migrate/20151004142442_create_orders.rb",
-		"/home/denis/Dropbox/my_store/db/migrate/20151004134537_create_carts.rb",
-		"/home/denis/Dropbox/my_store/db/migrate/20151004134513_create_users.rb",
-		"/home/denis/Dropbox/my_store/public/403.html",
-		"/home/denis/Dropbox/my_store/.Gemfile"
+		"/home/denis/Dropbox/my_store/db/migrate/20151006210201_remove_column_from_users.rb"
 	],
 	"find":
 	{
@@ -375,6 +398,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"brand",
 			"order_form",
 			"email",
 			"td",
@@ -408,8 +432,42 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "app/views/books/show.html.haml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 192,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								111,
+								111
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "ruby haml",
+							"buffer_scroll_name": "01ac30d9",
+							"spell_check": false,
+							"syntax": "Packages/Rails/Ruby Haml.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],

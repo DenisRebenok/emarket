@@ -179,14 +179,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "app/views/books/show.html.haml",
-			"settings":
-			{
-				"buffer_size": 192,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -242,16 +234,20 @@
 	"expanded_folders":
 	[
 		"/home/denis/Dropbox/emarket",
-		"/home/denis/Dropbox/emarket/app",
-		"/home/denis/Dropbox/emarket/app/assets",
-		"/home/denis/Dropbox/emarket/app/assets/images",
-		"/home/denis/Dropbox/emarket/app/views",
-		"/home/denis/Dropbox/emarket/app/views/books",
-		"/home/denis/Dropbox/emarket/app/views/devise/passwords",
-		"/home/denis/Dropbox/emarket/app/views/devise/registrations"
+		"/home/denis/Dropbox/emarket/app/assets/images"
 	],
 	"file_history":
 	[
+		"/home/denis/Dropbox/emarket/app/controllers/books_controller.rb",
+		"/home/denis/Dropbox/emarket/app/models/user.rb",
+		"/home/denis/Dropbox/emarket/app/models/book.rb",
+		"/home/denis/Dropbox/emarket/app/views/books/edit.html.haml",
+		"/home/denis/Dropbox/emarket/app/views/books/new.html.haml",
+		"/home/denis/Dropbox/emarket/db/migrate/20151121210119_add_user_id_to_books.rb",
+		"/home/denis/Dropbox/emarket/app/views/books/_form.html.haml",
+		"/home/denis/Dropbox/emarket/app/views/books/index.html.haml",
+		"/home/denis/Dropbox/emarket/app/views/books/show.html.haml",
+		"/home/denis/Dropbox/emarket/app/views/books/_book.html.haml",
 		"/home/denis/Dropbox/emarket/app/controllers/pages_controller.rb",
 		"/home/denis/Dropbox/emarket/app/views/layouts/_header.html.erb",
 		"/home/denis/Dropbox/emarket/app/views/pages/home.html.haml",
@@ -369,17 +365,7 @@
 		"/home/denis/Dropbox/my_store/app/views/layouts/application.html.erb",
 		"/home/denis/Dropbox/my_store/app/models/comment.rb",
 		"/home/denis/Dropbox/my_store/app/models/blog_post.rb",
-		"/home/denis/Dropbox/my_store/db/migrate/20151003210020_add_votes_count_to_items.rb",
-		"/home/denis/Dropbox/my_store/db/migrate/20150804233430_create_items.rb",
-		"/home/denis/Dropbox/my_store/app/models/cart.rb",
-		"/home/denis/Dropbox/my_store/app/models/position.rb",
-		"/home/denis/Dropbox/my_store/.ruby-gemset",
-		"/home/denis/Dropbox/mota_store/.ruby-gemset",
-		"/home/denis/Dropbox/mota_store/.ruby-version",
-		"/home/denis/Dropbox/my_store/.ruby-version",
-		"/home/denis/Dropbox/my_store/app/views/items/edit.html.erb",
-		"/home/denis/Dropbox/my_store/app/views/items/show.html.erb",
-		"/home/denis/Dropbox/my_store/db/migrate/20151006210201_remove_column_from_users.rb"
+		"/home/denis/Dropbox/my_store/db/migrate/20151003210020_add_votes_count_to_items.rb"
 	],
 	"find":
 	{
@@ -432,42 +418,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "app/views/books/show.html.haml",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 192,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								111,
-								111
-							]
-						],
-						"settings":
-						{
-							"bs_sintax": "ruby haml",
-							"buffer_scroll_name": "01ac30d9",
-							"spell_check": false,
-							"syntax": "Packages/Rails/Ruby Haml.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],

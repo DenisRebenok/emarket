@@ -1,25 +1,15 @@
-= form_for @book do |f|
-  - if @book.errors.any?
-    #error_explanation
-      %h2= "#{pluralize(@book.errors.count, "error")} prohibited this book from being saved:"
-      %ul
-        - @book.errors.full_messages.each do |msg|
-          %li= msg
+= simple_form_for(@book, html: {class: "form-signin"}) do |f|
+  = f.error_notification
+  
+  = f.input :name, required: true, label: false, placeholder: "Name", input_html: {class: "form-control"}
+  = f.input :author, required: true, label: false, placeholder: "Author's name", input_html: {class: "form-control"}
+  = f.input :description, required: true, label: false, placeholder: "Description", input_html: {class: "form-control", rows: 5}
+  = f.input :price, required: true, label: false, placeholder: "Price", input_html: {class: "form-control"}
+  .checkbox.text-center
+    %p Availability
+    = f.input :availability, required: true, label: false
+  = f.button :submit, class: "btn btn-primary btn-block"
 
-  .field
-    = f.label :name
-    = f.text_field :name
-  .field
-    = f.label :author
-    = f.text_field :author
-  .field
-    = f.label :description
-    = f.text_area :description
-  .field
-    = f.label :price
-    = f.number_field :price
-  .field
-    = f.label :availability
-    = f.check_box :availability
-  .actions
-    = f.submit 'Save'
+
+
+

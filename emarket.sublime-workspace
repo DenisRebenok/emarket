@@ -233,23 +233,24 @@
 	},
 	"expanded_folders":
 	[
-		"/home/denis/Dropbox/emarket",
-		"/home/denis/Dropbox/emarket/app/assets/images"
 	],
 	"file_history":
 	[
+		"/home/denis/Dropbox/emarket/app/views/books/_form.html.haml",
+		"/home/denis/Desktop/Untitled Document",
+		"/home/denis/Dropbox/emarket/app/views/pages/dashboard.html.haml",
+		"/home/denis/Dropbox/emarket/app/controllers/pages_controller.rb",
+		"/home/denis/Dropbox/emarket/app/views/layouts/_header.html.erb",
+		"/home/denis/Dropbox/emarket/config/routes.rb",
 		"/home/denis/Dropbox/emarket/app/controllers/books_controller.rb",
 		"/home/denis/Dropbox/emarket/app/models/user.rb",
 		"/home/denis/Dropbox/emarket/app/models/book.rb",
 		"/home/denis/Dropbox/emarket/app/views/books/edit.html.haml",
 		"/home/denis/Dropbox/emarket/app/views/books/new.html.haml",
 		"/home/denis/Dropbox/emarket/db/migrate/20151121210119_add_user_id_to_books.rb",
-		"/home/denis/Dropbox/emarket/app/views/books/_form.html.haml",
 		"/home/denis/Dropbox/emarket/app/views/books/index.html.haml",
 		"/home/denis/Dropbox/emarket/app/views/books/show.html.haml",
 		"/home/denis/Dropbox/emarket/app/views/books/_book.html.haml",
-		"/home/denis/Dropbox/emarket/app/controllers/pages_controller.rb",
-		"/home/denis/Dropbox/emarket/app/views/layouts/_header.html.erb",
 		"/home/denis/Dropbox/emarket/app/views/pages/home.html.haml",
 		"/home/denis/Dropbox/emarket/app/views/devise/registrations/edit.html.erb",
 		"/home/denis/Dropbox/emarket/db/migrate/20151121142038_create_books.rb",
@@ -262,7 +263,6 @@
 		"/home/denis/Dropbox/emarket/app/views/layouts/application.html.erb",
 		"/home/denis/Dropbox/emarket/Gemfile",
 		"/home/denis/Dropbox/emarket/config/environments/development.rb",
-		"/home/denis/Dropbox/emarket/config/routes.rb",
 		"/home/denis/Dropbox/scraper/Gemfile",
 		"/home/denis/Dropbox/scraper/config/initializers/devise.rb",
 		"/home/denis/Dropbox/scraper/app/views/movies/new.html.haml",
@@ -363,9 +363,7 @@
 		"/home/denis/Dropbox/mota_store/app/assets/stylesheets/application.css",
 		"/home/denis/Dropbox/mota_store/app/assets/javascripts/application.js",
 		"/home/denis/Dropbox/my_store/app/views/layouts/application.html.erb",
-		"/home/denis/Dropbox/my_store/app/models/comment.rb",
-		"/home/denis/Dropbox/my_store/app/models/blog_post.rb",
-		"/home/denis/Dropbox/my_store/db/migrate/20151003210020_add_votes_count_to_items.rb"
+		"/home/denis/Dropbox/my_store/app/models/comment.rb"
 	],
 	"find":
 	{
@@ -384,6 +382,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"My",
 			"brand",
 			"order_form",
 			"email",

@@ -3,6 +3,7 @@ class PagesController < ApplicationController
   
   def home
     redirect_to books_path if current_user
+    @books = Book.last(4)
   end
 
   def dashboard

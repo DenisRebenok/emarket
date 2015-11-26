@@ -3,3 +3,6 @@
   %p The largest online Digital Books Store
   = link_to "Books", books_path, class: "btn btn-primary btn-lg"
   = link_to "Sign Up", new_user_registration_path, class: "btn btn-primary btn-lg"
+
+.row
+  = render @books

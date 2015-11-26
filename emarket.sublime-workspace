@@ -179,6 +179,14 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "app/views/books/_book.html.haml",
+			"settings":
+			{
+				"buffer_size": 237,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -233,18 +241,23 @@
 	},
 	"expanded_folders":
 	[
+		"/home/denis/Dropbox/emarket",
+		"/home/denis/Dropbox/emarket/app",
+		"/home/denis/Dropbox/emarket/app/views",
+		"/home/denis/Dropbox/emarket/app/views/books"
 	],
 	"file_history":
 	[
+		"/home/denis/Dropbox/emarket/app/controllers/books_controller.rb",
+		"/home/denis/Dropbox/emarket/app/models/book.rb",
+		"/home/denis/Dropbox/emarket/Gemfile",
 		"/home/denis/Dropbox/emarket/app/views/books/_form.html.haml",
 		"/home/denis/Desktop/Untitled Document",
 		"/home/denis/Dropbox/emarket/app/views/pages/dashboard.html.haml",
 		"/home/denis/Dropbox/emarket/app/controllers/pages_controller.rb",
 		"/home/denis/Dropbox/emarket/app/views/layouts/_header.html.erb",
 		"/home/denis/Dropbox/emarket/config/routes.rb",
-		"/home/denis/Dropbox/emarket/app/controllers/books_controller.rb",
 		"/home/denis/Dropbox/emarket/app/models/user.rb",
-		"/home/denis/Dropbox/emarket/app/models/book.rb",
 		"/home/denis/Dropbox/emarket/app/views/books/edit.html.haml",
 		"/home/denis/Dropbox/emarket/app/views/books/new.html.haml",
 		"/home/denis/Dropbox/emarket/db/migrate/20151121210119_add_user_id_to_books.rb",
@@ -261,7 +274,6 @@
 		"/home/denis/Dropbox/emarket/app/assets/stylesheets/devise.css.scss",
 		"/home/denis/Dropbox/emarket/app/views/devise/sessions/new.html.erb",
 		"/home/denis/Dropbox/emarket/app/views/layouts/application.html.erb",
-		"/home/denis/Dropbox/emarket/Gemfile",
 		"/home/denis/Dropbox/emarket/config/environments/development.rb",
 		"/home/denis/Dropbox/scraper/Gemfile",
 		"/home/denis/Dropbox/scraper/config/initializers/devise.rb",
@@ -417,8 +429,40 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "app/views/books/_book.html.haml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 237,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								130,
+								130
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "ruby haml",
+							"buffer_scroll_name": "0226a090",
+							"spell_check": false,
+							"syntax": "Packages/Rails/Ruby Haml.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],

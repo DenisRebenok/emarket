@@ -20,7 +20,8 @@ class BooksController < ApplicationController
   def create
     @book = current_user.books.new(book_params)
     @book.save
-    respond_with(@book)
+    # respond_with(@book)
+    redirect_to books_path
   end
 
   def update

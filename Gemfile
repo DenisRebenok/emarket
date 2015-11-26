@@ -60,7 +60,6 @@ gem "paperclip"
 
 gem "dotenv-rails", group: :development
 
-
-
+gem 'aws-sdk', '< 2.0'
 
 

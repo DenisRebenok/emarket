@@ -16,4 +16,4 @@
 !/log/.keep
 /tmp
 .env
-emarket.sublime-project
+*.sublime*

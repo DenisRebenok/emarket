@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"con",
+				"config"
+			],
+			[
 				"input",
 				"input_html"
 			],
@@ -180,10 +184,10 @@
 	"buffers":
 	[
 		{
-			"file": "app/views/books/_book.html.haml",
+			"file": "app/controllers/books_controller.rb",
 			"settings":
 			{
-				"buffer_size": 237,
+				"buffer_size": 1083,
 				"line_ending": "Unix"
 			}
 		}
@@ -243,18 +247,28 @@
 	[
 		"/home/denis/Dropbox/emarket",
 		"/home/denis/Dropbox/emarket/app",
+		"/home/denis/Dropbox/emarket/app/controllers",
+		"/home/denis/Dropbox/emarket/app/models",
 		"/home/denis/Dropbox/emarket/app/views",
-		"/home/denis/Dropbox/emarket/app/views/books"
+		"/home/denis/Dropbox/emarket/app/views/books",
+		"/home/denis/Dropbox/emarket/app/views/pages"
 	],
 	"file_history":
 	[
-		"/home/denis/Dropbox/emarket/app/controllers/books_controller.rb",
+		"/home/denis/Dropbox/emarket/.gitignore",
 		"/home/denis/Dropbox/emarket/app/models/book.rb",
+		"/home/denis/Dropbox/emarket/db/migrate/20151126212849_add_slug_to_books.rb",
 		"/home/denis/Dropbox/emarket/Gemfile",
+		"/home/denis/Dropbox/emarket/app/views/pages/home.html.haml",
+		"/home/denis/Dropbox/emarket/app/controllers/pages_controller.rb",
+		"/home/denis/Dropbox/emarket/app/views/books/show.html.haml",
+		"/home/denis/Dropbox/emarket/config/application.rb",
+		"/home/denis/Dropbox/emarket/.env",
+		"/home/denis/Dropbox/emarket/app/views/books/_book.html.haml",
+		"/home/denis/Dropbox/emarket/app/controllers/books_controller.rb",
 		"/home/denis/Dropbox/emarket/app/views/books/_form.html.haml",
 		"/home/denis/Desktop/Untitled Document",
 		"/home/denis/Dropbox/emarket/app/views/pages/dashboard.html.haml",
-		"/home/denis/Dropbox/emarket/app/controllers/pages_controller.rb",
 		"/home/denis/Dropbox/emarket/app/views/layouts/_header.html.erb",
 		"/home/denis/Dropbox/emarket/config/routes.rb",
 		"/home/denis/Dropbox/emarket/app/models/user.rb",
@@ -262,9 +276,6 @@
 		"/home/denis/Dropbox/emarket/app/views/books/new.html.haml",
 		"/home/denis/Dropbox/emarket/db/migrate/20151121210119_add_user_id_to_books.rb",
 		"/home/denis/Dropbox/emarket/app/views/books/index.html.haml",
-		"/home/denis/Dropbox/emarket/app/views/books/show.html.haml",
-		"/home/denis/Dropbox/emarket/app/views/books/_book.html.haml",
-		"/home/denis/Dropbox/emarket/app/views/pages/home.html.haml",
 		"/home/denis/Dropbox/emarket/app/views/devise/registrations/edit.html.erb",
 		"/home/denis/Dropbox/emarket/db/migrate/20151121142038_create_books.rb",
 		"/home/denis/Dropbox/emarket/app/views/devise/passwords/new.html.erb",
@@ -371,11 +382,7 @@
 		"/home/denis/Dropbox/mota_store/app/views/carts/show.html.haml",
 		"/home/denis/Dropbox/mota_store/app/views/application/_cart.html.haml",
 		"/home/denis/Dropbox/mota_store/app/uploaders/image_uploader.rb",
-		"/home/denis/Dropbox/mota_store/app/assets/stylesheets/application.css.scss",
-		"/home/denis/Dropbox/mota_store/app/assets/stylesheets/application.css",
-		"/home/denis/Dropbox/mota_store/app/assets/javascripts/application.js",
-		"/home/denis/Dropbox/my_store/app/views/layouts/application.html.erb",
-		"/home/denis/Dropbox/my_store/app/models/comment.rb"
+		"/home/denis/Dropbox/mota_store/app/assets/stylesheets/application.css.scss"
 	],
 	"find":
 	{
@@ -434,30 +441,32 @@
 			[
 				{
 					"buffer": 0,
-					"file": "app/views/books/_book.html.haml",
+					"file": "app/controllers/books_controller.rb",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 237,
+						"buffer_size": 1083,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								130,
-								130
+								827,
+								827
 							]
 						],
 						"settings":
 						{
-							"bs_sintax": "ruby haml",
-							"buffer_scroll_name": "0226a090",
+							"bs_sintax": "ruby",
+							"buffer_scroll_name": "351ea093",
 							"spell_check": false,
-							"syntax": "Packages/Rails/Ruby Haml.tmLanguage"
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 594.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,

@@ -1,0 +1,4 @@
+.row.text-center
+  %h1 Congratulations on your order #{@sale.guid}
+  %p Here is your download link:
+  = link_to "Download", @book.resource.url

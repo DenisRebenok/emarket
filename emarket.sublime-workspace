@@ -4,8 +4,28 @@
 		"selected_items":
 		[
 			[
+				"fini",
+				"finished"
+			],
+			[
+				"tra",
+				"transitions"
+			],
+			[
+				"do",
+				"do0	Do Block without Arguments [X]"
+			],
+			[
+				"lin",
+				"linp	link_to (nested path)"
+			],
+			[
+				"str",
+				"stripe"
+			],
+			[
 				"con",
-				"config"
+				"configuration"
 			],
 			[
 				"input",
@@ -34,10 +54,6 @@
 			[
 				"pro",
 				"products"
-			],
-			[
-				"do",
-				"dow	downto(0) { |n| .. }"
 			],
 			[
 				"Order",
@@ -160,10 +176,6 @@
 				"fuel_tank"
 			],
 			[
-				"str",
-				"start_engine"
-			],
-			[
 				"cla",
 				"cla	class .. end"
 			],
@@ -184,10 +196,18 @@
 	"buffers":
 	[
 		{
-			"file": "app/controllers/books_controller.rb",
+			"file": "app/models/sale.rb",
 			"settings":
 			{
-				"buffer_size": 1083,
+				"buffer_size": 667,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/denis/.config/sublime-text-3/Packages/User/SublimeLinter.sublime-settings",
+			"settings":
+			{
+				"buffer_size": 1374,
 				"line_ending": "Unix"
 			}
 		}
@@ -247,30 +267,34 @@
 	[
 		"/home/denis/Dropbox/emarket",
 		"/home/denis/Dropbox/emarket/app",
-		"/home/denis/Dropbox/emarket/app/controllers",
 		"/home/denis/Dropbox/emarket/app/models",
-		"/home/denis/Dropbox/emarket/app/views",
-		"/home/denis/Dropbox/emarket/app/views/books",
-		"/home/denis/Dropbox/emarket/app/views/pages"
+		"/home/denis/Dropbox/emarket/app/views/transactions"
 	],
 	"file_history":
 	[
-		"/home/denis/Dropbox/emarket/.gitignore",
-		"/home/denis/Dropbox/emarket/app/models/book.rb",
-		"/home/denis/Dropbox/emarket/db/migrate/20151126212849_add_slug_to_books.rb",
+		"/home/denis/Dropbox/emarket/app/models/sale.rb",
 		"/home/denis/Dropbox/emarket/Gemfile",
+		"/home/denis/Dropbox/emarket/db/migrate/20151130011152_add_state_to_sales.rb",
+		"/home/denis/Dropbox/emarket/app/views/transactions/pickup.html.haml",
+		"/home/denis/Dropbox/emarket/app/views/books/show.html.erb",
+		"/home/denis/Dropbox/emarket/.env",
+		"/home/denis/Dropbox/emarket/config/routes.rb",
+		"/home/denis/Dropbox/emarket/app/controllers/transactions_controller.rb",
+		"/home/denis/Dropbox/emarket/db/migrate/20151126212849_add_slug_to_books.rb",
+		"/home/denis/Dropbox/emarket/config/initializers/stripe.rb",
+		"/home/denis/Dropbox/emarket/app/models/book.rb",
+		"/home/denis/Dropbox/emarket/app/controllers/books_controller.rb",
+		"/home/denis/Dropbox/emarket/db/migrate/20151128113204_create_sales.rb",
+		"/home/denis/Dropbox/emarket/.gitignore",
 		"/home/denis/Dropbox/emarket/app/views/pages/home.html.haml",
 		"/home/denis/Dropbox/emarket/app/controllers/pages_controller.rb",
 		"/home/denis/Dropbox/emarket/app/views/books/show.html.haml",
 		"/home/denis/Dropbox/emarket/config/application.rb",
-		"/home/denis/Dropbox/emarket/.env",
 		"/home/denis/Dropbox/emarket/app/views/books/_book.html.haml",
-		"/home/denis/Dropbox/emarket/app/controllers/books_controller.rb",
 		"/home/denis/Dropbox/emarket/app/views/books/_form.html.haml",
 		"/home/denis/Desktop/Untitled Document",
 		"/home/denis/Dropbox/emarket/app/views/pages/dashboard.html.haml",
 		"/home/denis/Dropbox/emarket/app/views/layouts/_header.html.erb",
-		"/home/denis/Dropbox/emarket/config/routes.rb",
 		"/home/denis/Dropbox/emarket/app/models/user.rb",
 		"/home/denis/Dropbox/emarket/app/views/books/edit.html.haml",
 		"/home/denis/Dropbox/emarket/app/views/books/new.html.haml",
@@ -375,14 +399,7 @@
 		"/home/denis/Dropbox/mota_store/config/environments/development.rb",
 		"/home/denis/.zshr",
 		"//.zshr",
-		"/home/denis/Dropbox/mota_store/app/models/cart_item.rb",
-		"/home/denis/Dropbox/mota_store/app/views/orders/_errors.html.haml",
-		"/home/denis/Dropbox/mota_store/db/schema.rb",
-		"/home/denis/Dropbox/mota_store/app/models/cart.rb",
-		"/home/denis/Dropbox/mota_store/app/views/carts/show.html.haml",
-		"/home/denis/Dropbox/mota_store/app/views/application/_cart.html.haml",
-		"/home/denis/Dropbox/mota_store/app/uploaders/image_uploader.rb",
-		"/home/denis/Dropbox/mota_store/app/assets/stylesheets/application.css.scss"
+		"/home/denis/Dropbox/mota_store/app/models/cart_item.rb"
 	],
 	"find":
 	{
@@ -441,35 +458,66 @@
 			[
 				{
 					"buffer": 0,
-					"file": "app/controllers/books_controller.rb",
+					"file": "app/models/sale.rb",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1083,
+						"buffer_size": 667,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								827,
-								827
+								282,
+								282
 							]
 						],
 						"settings":
 						{
 							"bs_sintax": "ruby",
-							"buffer_scroll_name": "351ea093",
+							"buffer_scroll_name": "d17d8991",
 							"spell_check": false,
 							"syntax": "Packages/Ruby/Ruby.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 594.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/home/denis/.config/sublime-text-3/Packages/User/SublimeLinter.sublime-settings",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1374,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								436,
+								436
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "json",
+							"buffer_scroll_name": "f00cf6a9",
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": -0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -527,6 +575,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"slug",
+				"db/migrate/20151126212849_add_slug_to_books.rb"
+			],
 			[
 				"orderma",
 				"mota_store/app/mailers/order_mailer.rb"

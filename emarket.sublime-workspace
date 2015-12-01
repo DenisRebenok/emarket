@@ -196,42 +196,18 @@
 	"buffers":
 	[
 		{
-			"file": "app/models/sale.rb",
-			"settings":
-			{
-				"buffer_size": 948,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "Gemfile",
 			"settings":
 			{
-				"buffer_size": 1826,
+				"buffer_size": 1821,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/controllers/transactions_controller.rb",
+			"file": "config/initializers/devise.rb",
 			"settings":
 			{
-				"buffer_size": 589,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "db/migrate/20151130064052_add_amount_to_sales.rb",
-			"settings":
-			{
-				"buffer_size": 113,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/home/denis/.config/sublime-text-3/Packages/User/SublimeLinter.sublime-settings",
-			"settings":
-			{
-				"buffer_size": 1371,
+				"buffer_size": 12966,
 				"line_ending": "Unix"
 			}
 		}
@@ -292,10 +268,23 @@
 		"/home/denis/Dropbox/emarket",
 		"/home/denis/Dropbox/emarket/app",
 		"/home/denis/Dropbox/emarket/app/controllers",
-		"/home/denis/Dropbox/emarket/app/models"
+		"/home/denis/Dropbox/emarket/app/views/books",
+		"/home/denis/Dropbox/emarket/app/views/devise",
+		"/home/denis/Dropbox/emarket/app/views/pages",
+		"/home/denis/Dropbox/emarket/app/views/transactions",
+		"/home/denis/Dropbox/emarket/config",
+		"/home/denis/Dropbox/emarket/config/initializers"
 	],
 	"file_history":
 	[
+		"/home/denis/Dropbox/emarket/app/views/pages/dashboard.html.haml",
+		"/home/denis/Dropbox/emarket/app/controllers/pages_controller.rb",
+		"/home/denis/Dropbox/emarket/app/views/pages/_sales.html.haml",
+		"/home/denis/Dropbox/emarket/app/views/pages/_books.html.haml",
+		"/home/denis/Dropbox/emarket/app/views/pages/_purchased.html.haml",
+		"/home/denis/.config/sublime-text-3/Packages/User/SublimeLinter.sublime-settings",
+		"/home/denis/Dropbox/emarket/db/migrate/20151130064052_add_amount_to_sales.rb",
+		"/home/denis/Dropbox/emarket/app/controllers/transactions_controller.rb",
 		"/home/denis/Dropbox/emarket/app/models/sale.rb",
 		"/home/denis/Dropbox/emarket/Gemfile",
 		"/home/denis/Dropbox/emarket/db/migrate/20151130011152_add_state_to_sales.rb",
@@ -303,7 +292,6 @@
 		"/home/denis/Dropbox/emarket/app/views/books/show.html.erb",
 		"/home/denis/Dropbox/emarket/.env",
 		"/home/denis/Dropbox/emarket/config/routes.rb",
-		"/home/denis/Dropbox/emarket/app/controllers/transactions_controller.rb",
 		"/home/denis/Dropbox/emarket/db/migrate/20151126212849_add_slug_to_books.rb",
 		"/home/denis/Dropbox/emarket/config/initializers/stripe.rb",
 		"/home/denis/Dropbox/emarket/app/models/book.rb",
@@ -311,13 +299,11 @@
 		"/home/denis/Dropbox/emarket/db/migrate/20151128113204_create_sales.rb",
 		"/home/denis/Dropbox/emarket/.gitignore",
 		"/home/denis/Dropbox/emarket/app/views/pages/home.html.haml",
-		"/home/denis/Dropbox/emarket/app/controllers/pages_controller.rb",
 		"/home/denis/Dropbox/emarket/app/views/books/show.html.haml",
 		"/home/denis/Dropbox/emarket/config/application.rb",
 		"/home/denis/Dropbox/emarket/app/views/books/_book.html.haml",
 		"/home/denis/Dropbox/emarket/app/views/books/_form.html.haml",
 		"/home/denis/Desktop/Untitled Document",
-		"/home/denis/Dropbox/emarket/app/views/pages/dashboard.html.haml",
 		"/home/denis/Dropbox/emarket/app/views/layouts/_header.html.erb",
 		"/home/denis/Dropbox/emarket/app/models/user.rb",
 		"/home/denis/Dropbox/emarket/app/views/books/edit.html.haml",
@@ -418,12 +404,7 @@
 		"/home/denis/Dropbox/mota_store/app/views/layouts/application.html.erb",
 		"/home/denis/Dropbox/mota_store/app/models/order_item.rb",
 		"/home/denis/Dropbox/mota_store/app/models/order_form.rb",
-		"/home/denis/Dropbox/mota_store/app/views/order_mailer/order_confirmation.text.erb",
-		"/home/denis/Dropbox/mota_store/Gemfile",
-		"/home/denis/Dropbox/mota_store/config/environments/development.rb",
-		"/home/denis/.zshr",
-		"//.zshr",
-		"/home/denis/Dropbox/mota_store/app/models/cart_item.rb"
+		"/home/denis/Dropbox/mota_store/app/views/order_mailer/order_confirmation.text.erb"
 	],
 	"find":
 	{
@@ -442,6 +423,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"#",
+			"spring",
+			"sqlite3",
 			"My",
 			"brand",
 			"order_form",
@@ -482,52 +466,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "app/models/sale.rb",
+					"file": "Gemfile",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 948,
+						"buffer_size": 1821,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								757,
-								757
-							]
-						],
-						"settings":
-						{
-							"bs_sintax": "ruby",
-							"buffer_scroll_name": "d17d8991",
-							"spell_check": false,
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": -0.0,
-						"translation.y": 324.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "Gemfile",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 1826,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1826,
-								1826
+								1536,
+								1536
 							]
 						],
 						"settings":
@@ -538,34 +489,33 @@
 							"syntax": "Packages/Ruby/Ruby.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 854.0,
+						"translation.y": 378.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "app/controllers/transactions_controller.rb",
+					"buffer": 1,
+					"file": "config/initializers/devise.rb",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 589,
+						"buffer_size": 12966,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								589,
-								589
+								964,
+								964
 							]
 						],
 						"settings":
 						{
 							"bs_sintax": "ruby",
-							"buffer_scroll_name": "865c2042",
-							"spell_check": false,
+							"buffer_scroll_name": "c589b19b",
 							"syntax": "Packages/Ruby/Ruby.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
@@ -574,70 +524,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "db/migrate/20151130064052_add_amount_to_sales.rb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 113,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"bs_sintax": "ruby",
-							"buffer_scroll_name": "2bb2da86",
-							"spell_check": false,
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "/home/denis/.config/sublime-text-3/Packages/User/SublimeLinter.sublime-settings",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1371,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								433,
-								433
-							]
-						],
-						"settings":
-						{
-							"bs_sintax": "json",
-							"buffer_scroll_name": "f00cf6a9",
-							"spell_check": false,
-							"syntax": "Packages/JavaScript/JSON.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]

@@ -1,0 +1,13 @@
+%table.table.table-condensed
+  %thead
+    %tr
+      %th Name
+      %th Date
+      %th Buyer
+
+  %tbody
+  - @sales.each do |sale|
+    %tr
+      %td= link_to sale.book.name, pickup_path(sale.guid)
+      %td= "#{time_ago_in_words(sale.created_at)} ago"
+      %td= sale.buyer_email

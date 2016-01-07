@@ -1,4 +1,12 @@
 GIT
+  remote: git://github.com/seuros/capistrano-sidekiq.git
+  revision: 0794cf99be7bfe7f3e6828c4965db135d7e1c20b
+  specs:
+    capistrano-sidekiq (0.5.4)
+      capistrano
+      sidekiq (>= 3.4)
+
+GIT
   remote: git://github.com/seyhunak/twitter-bootstrap-rails.git
   revision: c84936fcfb31942897088165239aa58851a4fbb6
   specs:
@@ -72,9 +80,6 @@ GEM
     capistrano-rvm (0.1.2)
       capistrano (~> 3.0)
       sshkit (~> 1.2)
-    capistrano-sidekiq (0.5.4)
-      capistrano
-      sidekiq (>= 3.4)
     climate_control (0.0.3)
       activesupport (>= 3.0)
     cocaine (0.5.7)
@@ -276,7 +281,7 @@ DEPENDENCIES
   capistrano-bundler
   capistrano-rails
   capistrano-rvm
-  capistrano-sidekiq
+  capistrano-sidekiq!
   coffee-rails (~> 4.1.0)
   devise
   dotenv

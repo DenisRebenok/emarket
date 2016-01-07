@@ -4,12 +4,96 @@
 		"selected_items":
 		[
 			[
-				"fini",
-				"finished"
+				"wa",
+				"wagon"
+			],
+			[
+				"tr",
+				"train"
 			],
 			[
 				"tra",
-				"transitions"
+				"trains"
+			],
+			[
+				"st",
+				"stations"
+			],
+			[
+				"st_",
+				"st_name"
+			],
+			[
+				"at",
+				"attr	Ruby attr_accessor"
+			],
+			[
+				"train",
+				"train_index"
+			],
+			[
+				"ea",
+				"eai	each_index { |i| .. }"
+			],
+			[
+				"els",
+				"elsif	elsif ..."
+			],
+			[
+				"instance",
+				"instance_of"
+			],
+			[
+				"in",
+				"instance_of"
+			],
+			[
+				"na",
+				"name"
+			],
+			[
+				"attr",
+				"attr	Ruby attr_accessor"
+			],
+			[
+				"req",
+				"require_relative"
+			],
+			[
+				"n",
+				"number"
+			],
+			[
+				"ini",
+				"init	Initialize Method with Arguments"
+			],
+			[
+				"sta",
+				"start_engine"
+			],
+			[
+				"an",
+				"answer"
+			],
+			[
+				"un",
+				"until	Until Statement [X]"
+			],
+			[
+				"ha",
+				"hash"
+			],
+			[
+				"al",
+				"alphabet"
+			],
+			[
+				"res",
+				"result"
+			],
+			[
+				"fini",
+				"finished"
 			],
 			[
 				"do",
@@ -44,28 +128,12 @@
 				"attr	Ruby attr_accessor"
 			],
 			[
-				"req",
-				"req	require \"..\""
-			],
-			[
-				"na",
-				"navbar"
-			],
-			[
 				"pro",
 				"products"
 			],
 			[
 				"Order",
 				"OrderTransaction"
-			],
-			[
-				"at",
-				"attrr	Ruby attr_reader"
-			],
-			[
-				"ini",
-				"init	Initialize Method with Arguments"
 			],
 			[
 				"order",
@@ -152,10 +220,6 @@
 				"InstanceMethods"
 			],
 			[
-				"in",
-				"include	Include Method"
-			],
-			[
 				"se",
 				"self"
 			],
@@ -195,22 +259,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "Gemfile",
-			"settings":
-			{
-				"buffer_size": 1821,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "config/initializers/devise.rb",
-			"settings":
-			{
-				"buffer_size": 12966,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -266,17 +314,71 @@
 	"expanded_folders":
 	[
 		"/home/denis/Dropbox/emarket",
-		"/home/denis/Dropbox/emarket/app",
-		"/home/denis/Dropbox/emarket/app/controllers",
-		"/home/denis/Dropbox/emarket/app/views/books",
-		"/home/denis/Dropbox/emarket/app/views/devise",
-		"/home/denis/Dropbox/emarket/app/views/pages",
-		"/home/denis/Dropbox/emarket/app/views/transactions",
-		"/home/denis/Dropbox/emarket/config",
-		"/home/denis/Dropbox/emarket/config/initializers"
+		"/home/denis/Dropbox/emarket/app"
 	],
 	"file_history":
 	[
+		"/home/denis/Dropbox/scraper/Gemfile",
+		"/home/denis/Dropbox/mota_store/app/views/application/_nav.html.erb",
+		"/home/denis/Dropbox/thinknetica/hw_5/main.rb",
+		"/home/denis/Dropbox/thinknetica/hw_5/railway_station.rb",
+		"/home/denis/Dropbox/thinknetica/hw_5/train.rb",
+		"/home/denis/Dropbox/thinknetica/hw_5/wagon.rb",
+		"/home/denis/Dropbox/online_shop/Gemfile",
+		"/home/denis/Dropbox/thinknetica/hw_5/cargo_wagon.rb",
+		"/home/denis/Dropbox/thinknetica/hw_5/passenger_wagon.rb",
+		"/media/denis/345031D350319C94/PYTHON/Прочее/PyBursa/0. Материалы для курса/instructions.txt",
+		"/media/denis/345031D350319C94/PHP/php_files/PhpstormProjects/Strings/LyndaStrings/strings_functions.php",
+		"/home/denis/Downloads/56084801.urls",
+		"/home/denis/Desktop/RoR Beginner_2",
+		"/home/denis/Downloads/Django_Recommended/Django_Recommended/README.txt",
+		"/home/denis/Dropbox/thinknetica/hw_5/cargo_train.rb",
+		"/home/denis/Dropbox/thinknetica/hw_5/passenger_train.rb",
+		"/home/denis/Dropbox/thinknetica/hw_4/main.rb",
+		"/home/denis/Dropbox/thinknetica/lesson_5/car.rb",
+		"/home/denis/Dropbox/thinknetica/hw_5/manufacturer.rb",
+		"/home/denis/Dropbox/thinknetica/lesson_5/good_dog.rb",
+		"/home/denis/Dropbox/thinknetica/hw_4/train.rb",
+		"/home/denis/Dropbox/thinknetica/hw_4/wagon.rb",
+		"/home/denis/Dropbox/thinknetica/lesson_5/manufacturer.rb",
+		"/home/denis/Dropbox/thinknetica/lesson_5/modules.rb",
+		"/home/denis/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/denis/Desktop/broken_urls.js",
+		"/home/denis/Dropbox/thinknetica/hw_4/railway_station.rb",
+		"/home/denis/Dropbox/thinknetica/hw_4/passenger_train.rb",
+		"/home/denis/Dropbox/thinknetica/hw_4/cargo_train.rb",
+		"/home/denis/Dropbox/thinknetica/hw_4/application.rb",
+		"/home/denis/Dropbox/thinknetica/hw_4/route.rb",
+		"/home/denis/Dropbox/thinknetica/hw_4/cargo_wagon.rb",
+		"/home/denis/Dropbox/thinknetica/lesson_4/truck.rb",
+		"/home/denis/Dropbox/thinknetica/hw_4/passenger_wagon.rb",
+		"/home/denis/Dropbox/thinknetica/lesson_4/car.rb",
+		"/home/denis/Dropbox/thinknetica/lesson_4/sport_car.rb",
+		"/home/denis/Dropbox/thinknetica/lesson_4/main.rb",
+		"/home/denis/Dropbox/thinknetica/hw_3/railway_station.rb",
+		"/home/denis/Dropbox/thinknetica/hw_2/fibonacci.rb",
+		"/home/denis/Dropbox/thinknetica/hw_2/5.rb",
+		"/home/denis/Dropbox/thinknetica/hw_2/4.rb",
+		"/home/denis/Dropbox/thinknetica/hw_2/2.rb",
+		"/home/denis/Dropbox/thinknetica/hw_2/1.rb",
+		"/home/denis/Dropbox/thinknetica/hw_2/6.rb",
+		"/home/denis/Dropbox/thinknetica/hw_2/3.rb",
+		"/home/denis/Dropbox/thinknetica/hw_3/route.rb",
+		"/home/denis/Dropbox/thinknetica/hw_3/train.rb",
+		"/home/denis/Dropbox/thinknetica/lesson_3/car.rb",
+		"/home/denis/Dropbox/thinknetica/hw_1/date_helpers.rb",
+		"/home/denis/Dropbox/thinknetica/hw_1/area_triangle.rb",
+		"/home/denis/Dropbox/thinknetica/hw_2/7.rb",
+		"/home/denis/Dropbox/thinknetica/hw_1/quadratic_equation.rb",
+		"/home/denis/Dropbox/test/README.txt",
+		"/home/denis/Dropbox/thinknetica/hw_1/optimal_weight.rb",
+		"/home/denis/Dropbox/thinknetica/hw_1/right_triangle.rb",
+		"/home/denis/Dropbox/tn_hw_1/hello2.rb",
+		"/home/denis/Desktop/Untitled Document",
+		"/home/denis/Dropbox/emarket/app/views/books/show.html.erb",
+		"/home/denis/Dropbox/emarket/app/controllers/books_controller.rb",
+		"/home/denis/Dropbox/emarket/config/initializers/devise.rb",
+		"/home/denis/Dropbox/emarket/Gemfile",
 		"/home/denis/Dropbox/emarket/app/views/pages/dashboard.html.haml",
 		"/home/denis/Dropbox/emarket/app/controllers/pages_controller.rb",
 		"/home/denis/Dropbox/emarket/app/views/pages/_sales.html.haml",
@@ -286,16 +388,13 @@
 		"/home/denis/Dropbox/emarket/db/migrate/20151130064052_add_amount_to_sales.rb",
 		"/home/denis/Dropbox/emarket/app/controllers/transactions_controller.rb",
 		"/home/denis/Dropbox/emarket/app/models/sale.rb",
-		"/home/denis/Dropbox/emarket/Gemfile",
 		"/home/denis/Dropbox/emarket/db/migrate/20151130011152_add_state_to_sales.rb",
 		"/home/denis/Dropbox/emarket/app/views/transactions/pickup.html.haml",
-		"/home/denis/Dropbox/emarket/app/views/books/show.html.erb",
 		"/home/denis/Dropbox/emarket/.env",
 		"/home/denis/Dropbox/emarket/config/routes.rb",
 		"/home/denis/Dropbox/emarket/db/migrate/20151126212849_add_slug_to_books.rb",
 		"/home/denis/Dropbox/emarket/config/initializers/stripe.rb",
 		"/home/denis/Dropbox/emarket/app/models/book.rb",
-		"/home/denis/Dropbox/emarket/app/controllers/books_controller.rb",
 		"/home/denis/Dropbox/emarket/db/migrate/20151128113204_create_sales.rb",
 		"/home/denis/Dropbox/emarket/.gitignore",
 		"/home/denis/Dropbox/emarket/app/views/pages/home.html.haml",
@@ -303,7 +402,6 @@
 		"/home/denis/Dropbox/emarket/config/application.rb",
 		"/home/denis/Dropbox/emarket/app/views/books/_book.html.haml",
 		"/home/denis/Dropbox/emarket/app/views/books/_form.html.haml",
-		"/home/denis/Desktop/Untitled Document",
 		"/home/denis/Dropbox/emarket/app/views/layouts/_header.html.erb",
 		"/home/denis/Dropbox/emarket/app/models/user.rb",
 		"/home/denis/Dropbox/emarket/app/views/books/edit.html.haml",
@@ -320,7 +418,6 @@
 		"/home/denis/Dropbox/emarket/app/views/devise/sessions/new.html.erb",
 		"/home/denis/Dropbox/emarket/app/views/layouts/application.html.erb",
 		"/home/denis/Dropbox/emarket/config/environments/development.rb",
-		"/home/denis/Dropbox/scraper/Gemfile",
 		"/home/denis/Dropbox/scraper/config/initializers/devise.rb",
 		"/home/denis/Dropbox/scraper/app/views/movies/new.html.haml",
 		"/home/denis/Dropbox/scraper/app/views/movies/show.html.haml",
@@ -348,63 +445,7 @@
 		"/home/denis/Dropbox/my_store/config/environments/development.rb",
 		"/home/denis/Dropbox/mota_store/app/views/products/show.html.haml",
 		"/home/denis/Dropbox/mota_store/config/routes.rb",
-		"/home/denis/Dropbox/mota_store/.gitignore",
-		"/home/denis/Dropbox/my_store/.gitignore",
-		"/home/denis/Dropbox/my_store/app/views/layouts/application.html.haml",
-		"/home/denis/Dropbox/my_store/app/assets/stylesheets/application.css.scss",
-		"/home/denis/Desktop/Cover Letter",
-		"/home/denis/Dropbox/my_store/app/assets/javascripts/items.js",
-		"/home/denis/Dropbox/my_store/app/controllers/application_controller.rb",
-		"/home/denis/Desktop/digital_ocean.txt",
-		"/home/denis/.ssh/config",
-		"/home/denis/Dropbox/my_store/app/controllers/cart_controller.rb",
-		"/home/denis/Dropbox/my_store/app/views/cart/cart.html.haml",
-		"/home/denis/Dropbox/my_store/config/routes.rb",
-		"/home/denis/Dropbox/my_store/app/views/pages/frontpage.html.haml",
-		"/home/denis/Dropbox/my_store/app/views/items/index.html.haml",
-		"/home/denis/Dropbox/my_store/app/helpers/application_helper.rb",
-		"/home/denis/Dropbox/my_store/app/controllers/pages_controller.rb",
-		"/home/denis/Dropbox/my_store/config/deploy.rb",
-		"/config/deploy.rb",
-		"/home/denis/.ssh/known_hosts",
-		"/home/denis/Dropbox/mota_store/app/models/order.rb",
-		"/home/denis/Dropbox/mota_store/app/views/orders/index.html.haml",
-		"/home/denis/Dropbox/mota_store/app/views/products/index.html.haml",
-		"/home/denis/Dropbox/mota_store/app/controllers/application_controller.rb",
-		"/home/denis/Dropbox/mota_store/app/controllers/orders_controller.rb",
-		"/home/denis/Dropbox/mota_store/app/mailers/order_mailer.rb",
-		"/home/denis/Dropbox/mota_store/app/views/order_mailer/state_changed.text.erb",
-		"/media/denis/345031D350319C94/RUBY/RAILS/Projects/Done/! Tutsplus - Build a Store With a Payment Gateway in Rails [NepsterJay]/db/migrate/20151025120437_add_state_to_orders.rb",
-		"/media/denis/345031D350319C94/RUBY/RAILS/Projects/The Professional Ruby On Rails Developer [Udemy] (сайт с рецептами)/Read-Me.txt",
-		"/media/denis/345031D350319C94/RUBY/RAILS/Projects/! Tutsplus - Build a Store With a Payment Gateway in Rails [NepsterJay]/NepsterJay.txt",
-		"/home/denis/Dropbox/mota_store/app/views/categories/show.html.haml",
-		"/home/denis/Dropbox/mota_store/app/views/carts/checkout.html.haml",
-		"/home/denis/Dropbox/mota_store/app/controllers/products_controller.rb",
-		"/home/denis/Dropbox/mota_store/app/views/products/_form.html.haml",
-		"/home/denis/Dropbox/mota_store/db/migrate/20151025120615_add_state_to_orders.rb",
-		"/home/denis/Dropbox/mota_store/app/services/order_transaction.rb",
-		"/home/denis/Dropbox/mota_store/app/models/user.rb",
-		"/home/denis/Dropbox/mota_store/app/views/products/_table.html.haml",
-		"/home/denis/Dropbox/mota_store/app/views/application/_nav.html.erb",
-		"/home/denis/Dropbox/my_store/app/views/devise/shared/_links.html.erb",
-		"/home/denis/Dropbox/mota_store/app/views/orders/_braintree.html.haml",
-		"/home/denis/Dropbox/mota_store/db/migrate/20151025010307_add_category_to_products.rb",
-		"/home/denis/Dropbox/mota_store/app/views/orders/new_payment.html.haml",
-		"/home/denis/Dropbox/my_store/app/models/user.rb",
-		"/home/denis/Dropbox/mota_store/20151025120615_add_state_to_orders.rb",
-		"/home/denis/Dropbox/mota_store/db/migrate/20151025120437_add_state_to_orders.rb",
-		"/home/denis/Dropbox/mota_store/app/controllers/categories_controller.rb",
-		"/home/denis/Dropbox/mota_store/app/models/category.rb",
-		"/home/denis/Dropbox/mota_store/app/views/orders/_data.html.haml",
-		"/home/denis/Dropbox/mota_store/db/migrate/20151025094222_add_admin_to_users.rb",
-		"/home/denis/Dropbox/mota_store/%table.table.table-hover",
-		"/home/denis/Dropbox/mota_store/app/models/product.rb",
-		"/home/denis/Dropbox/mota_store/config/environments/test.rb",
-		"/home/denis/Dropbox/mota_store/app/controllers/carts_controller.rb",
-		"/home/denis/Dropbox/mota_store/app/views/layouts/application.html.erb",
-		"/home/denis/Dropbox/mota_store/app/models/order_item.rb",
-		"/home/denis/Dropbox/mota_store/app/models/order_form.rb",
-		"/home/denis/Dropbox/mota_store/app/views/order_mailer/order_confirmation.text.erb"
+		"/home/denis/Dropbox/mota_store/.gitignore"
 	],
 	"find":
 	{
@@ -423,6 +464,44 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"attach_wagons",
+			"type",
+			"train",
+			"tr_index",
+			"trains",
+			"type",
+			"number",
+			"self",
+			"train_index",
+			"station_index",
+			"station_name",
+			"self",
+			"stations",
+			"attach_wagons",
+			"app",
+			"value",
+			"key",
+			"atach",
+			"#OK",
+			"truck",
+			"private",
+			"protected",
+			"#OK",
+			"p",
+			"products",
+			"name",
+			"day",
+			"new_fib",
+			"current",
+			"fibonacci",
+			"b",
+			"current",
+			"previous",
+			"result",
+			"head",
+			"parent",
+			"ch",
+			"ary",
 			"#",
 			"spring",
 			"sqlite3",
@@ -451,6 +530,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"attach"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -461,72 +541,8 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "Gemfile",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1821,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1536,
-								1536
-							]
-						],
-						"settings":
-						{
-							"bs_sintax": "ruby",
-							"buffer_scroll_name": "cfbaf57a",
-							"spell_check": false,
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 378.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "config/initializers/devise.rb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 12966,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								964,
-								964
-							]
-						],
-						"settings":
-						{
-							"bs_sintax": "ruby",
-							"buffer_scroll_name": "c589b19b",
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -573,7 +589,7 @@
 	"project": "emarket.sublime-project",
 	"replace":
 	{
-		"height": 48.0
+		"height": 66.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -658,7 +674,7 @@
 	"show_minimap": false,
 	"show_open_files": true,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 200.0,
 	"status_bar_visible": true,
 	"template_settings":
